@@ -3,14 +3,13 @@
 	margin:0px;
 	text-decoration: none;
 }
-.row{
-	margin:0px 10px;
-}
 #brand-name{
 	color:white;
 	font-size: 3em;
 }
-
+.row{
+	margin:0px 10px;
+}
 #Chicken, #Beef, #Sushi{
 	background-color: #9E9E9E;
 	font-size: 1.2em;
