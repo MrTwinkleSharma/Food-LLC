@@ -10,6 +10,39 @@ body{
 	color:white;
 	font-size: 3em;
 }
+
+/* Collapsible Menu Button Coding Starts here */
+.style{
+	text-decoration: none;
+	font-size: 1.2em;
+	background-color: white;
+	color:black;
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+}
+a:hover,a:focus{
+	text-decoration: none;
+}
+.navbar-toggler:hover{
+	background-color: white;
+}
+.nav-link{
+	font-size: 1.2em;
+	background-color: white;
+	color:black;
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+}
+/*  Menu */
+.jumbotron{
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 15px;
+}
+
 .row{
 	margin:0px 10px;
 }
@@ -21,12 +54,6 @@ body{
 p{
 	text-align: center;
 	font-size: 1.4em;	
-}
-.jumbotron{
-	background-color: white;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding: 15px;
 }
 
 @media (min-width: 992px){
@@ -56,3 +83,4 @@ p{
 	margin :15px 0px;
 }
 }
+
